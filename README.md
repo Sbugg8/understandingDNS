@@ -29,11 +29,9 @@ The DC also doubles as a DNS server, which means its responsible for resolving a
 
 ![image](https://github.com/user-attachments/assets/47cabd30-7941-44a9-b4d5-e651280554b7)
 
-</p>
-<p>
+Once you log into both the Virtual Machines (azure) for Client and Domain Controller, you then will get the public IP address for both and connect to them in Remote Desktop (using one remote desktop for each). Log into Client as admin "mydomain.com/admin/(yourname)" and open up Powershell to ping mainframe. When your computer tries to interact with a host name on the network, it will first go through a few steps. The first step is for it to check the Local DNS Cashe, if there is no success then it will continue its search by connecting to the Local Host File, before lastly checking the DNS Server.
 
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/8fe92000-fd14-4fe0-860a-8737f22f10b5)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

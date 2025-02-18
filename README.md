@@ -37,12 +37,19 @@ Next we are going to create a DNS A-record on DC for “mainframe” and have it
 
 
 ![image](https://github.com/user-attachments/assets/c30d4965-b368-49b5-b39a-2c87534a4bc2)
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
-</p>
-<p>
-</p>
-<br />
+
+Once the mainframe host is added, you can go back and ping the system from the Client server and you will see that the system was able to find packets of mainframe, compared to before when the host did not exist.
+![image](https://github.com/user-attachments/assets/51fcfb7a-7f09-4c25-8e48-c2ebd3178b02)
+
+Then go back to DC and change mainframe’s record address to 8.8.8.8 followed by going back to the Client and ping “mainframe” again. Observe that it still pings the old address.
+
+![image](https://github.com/user-attachments/assets/486c852a-161a-4184-b51a-422fb7ff658f)
+
+Even adter you ping it, the system will still observe the old IP address because it is embeded in the systems history or "cashe". Although we changed the address, the original IP address will still show up in the search.
+
+![image](https://github.com/user-attachments/assets/4da59cf5-824d-4d14-8874-63055d911ce1)
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

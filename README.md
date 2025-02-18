@@ -45,17 +45,12 @@ Then go back to DC and change mainframe’s record address to 8.8.8.8 followed b
 
 ![image](https://github.com/user-attachments/assets/486c852a-161a-4184-b51a-422fb7ff658f)
 
-Even adter you ping it, the system will still observe the old IP address because it is embeded in the systems history or "cashe". Although we changed the address, the original IP address will still show up in the search.
+Even adter you ping it, the system will still observe the old IP address because it is embeded in the systems history or "cache". Although we changed the address, the original IP address will still show up in the search until it is flushed.
 
 ![image](https://github.com/user-attachments/assets/4da59cf5-824d-4d14-8874-63055d911ce1)
 
+Flushing the DNS means clearing the DNS cache on your computer or server. The DNS cache stores previously resolved domain names and their IP addresses to speed up future visits. However, sometimes this cached data becomes outdated, incorrect, or corrupted, leading to issues and therefore, even though we changed the IP address for the mainframe, until we flush out the cache, it will continue to display the orginal IP address we set it to.
+
+![image](https://github.com/user-attachments/assets/2490bf50-a1e5-4920-90de-ad5f73420901)
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-<br />
-
-<p>

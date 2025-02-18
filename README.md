@@ -45,7 +45,7 @@ Then go back to DC and change mainframe’s record address to 8.8.8.8 followed b
 
 ![image](https://github.com/user-attachments/assets/486c852a-161a-4184-b51a-422fb7ff658f)
 
-Even adter you ping it, the system will still observe the old IP address because it is embeded in the systems history or "cache". Although we changed the address, the original IP address will still show up in the search until it is flushed.
+Even after you ping it, the system will still observe the old IP address because it is embeded in the systems history or "cache". Although we changed the address, the original IP address will still show up in the search until it is flushed.
 
 ![image](https://github.com/user-attachments/assets/4da59cf5-824d-4d14-8874-63055d911ce1)
 

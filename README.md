@@ -21,16 +21,14 @@ In this lab, we will explore and experiment with the Domain Name System (DNS) to
 
 <h2>DNS Steps</h2>
 
+DNS (Domain Name System) is like the phonebook of the internet. It translates human-friendly website names (like google.com) into computer-friendly IP addresses (like 142.250.190.14).
+
 ![image](https://github.com/user-attachments/assets/bcdfe05a-a96e-4401-aabe-9e9855a48462)
 
-</p>
-<p>
+The DC also doubles as a DNS server, which means its responsible for resolving all requests from the network. In order to do this, the server uses "Root Hint". A Root Hint Server is a special type of DNS server that helps other DNS servers find the root of the internet's domain name system (DNS). It acts as a starting point when a DNS server needs to resolve a domain name but doesn’t have the answer cached or stored locally.
 
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/47cabd30-7941-44a9-b4d5-e651280554b7)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 

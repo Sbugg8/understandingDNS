@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/519d2d0c-4daa-495b-83de-2193453e8b70)
 
 
-<h1>Understading DNS</h1>
+<h1>Understanding DNS</h1>
 In this lab, we will explore and experiment with the Domain Name System (DNS) to gain a beter understanding of how it works. DNS convers computer names to IP addresses which can be used by the computer to locate resouces. DNS is integrated wuth Active Directory and automatically gets installed on the Domain Controller(DC).
 
 <h2>Environments and Technologies Used</h2>

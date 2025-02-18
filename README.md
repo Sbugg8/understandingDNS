@@ -33,14 +33,10 @@ Once you log into both the Virtual Machines (azure) for Client and Domain Contro
 
 ![image](https://github.com/user-attachments/assets/8fe92000-fd14-4fe0-860a-8737f22f10b5)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+Next we are going to create a DNS A-record on DC for “mainframe” and have it point to DC Private IP address. By doing so you go to DNS on the start menu -> DC-> mydomain.com and note the Private IP address for DC. In order to create a new A-record, inside of the DNS manager we are going to right click and select "New Host" and name it "mainframe" with the IP address the same as the DC private IP address.
 
-</p>
-<br />
 
+![image](https://github.com/user-attachments/assets/c30d4965-b368-49b5-b39a-2c87534a4bc2)
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>

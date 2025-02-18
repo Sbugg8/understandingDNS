@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/259c8efd-f3c3-46dc-a253-5afa075ba309)
+![image](https://github.com/user-attachments/assets/519d2d0c-4daa-495b-83de-2193453e8b70)
 
 
 <h1>Understading DNS</h1>
-In this lab, we will explore and experiment with the Domain Name System (DNS) to gain a deeper understanding of how it operates and supports network communication. Through practical exercises, we aim to enhance our knowledge of DNS functionality and its critical role in translating domain names into IP addresses.<br />
+In this lab, we will explore and experiment with the Domain Name System (DNS) to gain a beter understanding of how it works. DNS convers computer names to IP addresses which can be used by the computer to locate resouces. DNS is integrated wuth Active Directory and automatically gets installed on the Domain Controller(DC).
 
 <h2>Environments and Technologies Used</h2>
 
@@ -20,8 +20,9 @@ In this lab, we will explore and experiment with the Domain Name System (DNS) to
 - A Client VM joined to your Network 
 
 <h2>DNS Steps</h2>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/bcdfe05a-a96e-4401-aabe-9e9855a48462)
+
 </p>
 <p>
 
